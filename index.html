@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Warner Bros Website</title>
-    <!-- Making internal css -->
+    <!-- Internal CSS -->
     <style>
         /* Styling for navigation */
         nav ul {
@@ -19,8 +19,16 @@
             margin-left: 20px;
         }
 
+        /* Text color for navigation links */
+        nav ul li a {
+            color: white;
+            text-decoration: none; /* Remove underline */
+            transition: color 0.3s; /* Smooth color transition */
+        }
+
+        /* Hover effect for navigation links */
         nav ul li a:hover {
-            color: red;
+            color: red; /* Change color to red on hover */
         }
 
         /* Styling for search bar */
@@ -54,7 +62,8 @@
     <div class="content">
         <header>
             <figure>
-                /*The logo with inline css*/
+                <!-- The logo with inline CSS -->
+                <a href="#top">
                     <img alt="logo" height="90" src="Gold Luxury Initial Circle Logo_20240424_190905_0000.png" width="100">
                 </a>
             </figure>
