@@ -126,6 +126,13 @@
             height: 150px;
             resize: vertical;
         }
+
+        /* Thank you message */
+        .thank-you-message {
+            display: none;
+            margin-top: 20px;
+            font-size: 20px;
+        }
     </style>
 </head>
 
@@ -157,12 +164,13 @@
         <!-- Feedback form -->
         <div class="feedback-form">
             <h2>Feedback</h2>
-            <form action="/submit_feedback" method="post">
+            <form id="feedbackForm" action="/submit_feedback" method="post" onsubmit="submitForm(event)">
                 <input type="text" name="name" placeholder="Your Name" required><br>
                 <input type="email" name="email" placeholder="Your Email" required><br>
                 <textarea name="feedback" placeholder="Your Feedback" required></textarea><br>
                 <input type="submit" value="Submit">
             </form>
+            <div id="thankYouMessage" class="thank-you-message">Thank you for your feedback!</div>
         </div>
 
         <!-- Footer -->
@@ -179,6 +187,20 @@
             </ul>
         </footer>
     </div>
+
+    <!-- JavaScript for form submission and thank you message -->
+    <script>
+        function submitForm(event) {
+            event.preventDefault(); // Prevent form submission
+            document.getElementById('feedbackForm').reset(); // Reset form fields
+            document.getElementById('feedbackForm').style.display = 'none'; // Hide form
+            document.getElementById('thankYouMessage').style.display = 'block'; // Display thank you message
+            setTimeout(function() {
+                document.getElementById('feedbackForm').style.display = 'block'; // Re-display form after 3 seconds
+                document.getElementById('thankYouMessage').style.display = 'none'; // Hide thank you message after 3 seconds
+            }, 3000);
+        }
+    </script>
 </body>
 
 </html>
