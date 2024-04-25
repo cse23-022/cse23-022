@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Warner Bros Website</title>
+    <!-- Internal CSS -->
+    <style>
+        /* Styling for navigation */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        /* Text color for navigation links */
+        nav ul li a {
+            color: white;
+            text-decoration: none; /* Remove underline */
+            transition: color 0.3s; /* Smooth color transition */
+        }
+
+        /* Hover effect for navigation links */
+        nav ul li a:hover {
+            color: red; /* Change color to red on hover */
+        }
+
+        /* Styling for search bar */
+        .search-container {
+            float: right;
+            margin-top: 30px;
+        }
+
+        .search-container input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            margin-right: 16px;
+            font-size: 17px;
+            border: none;
+        }
+
+        .search-container button {
+            padding: 6px 10px;
+            margin-top: 8px;
+            margin-right: 16px;
+            background: #ddd;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        /* Background color */
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+
+        /* Horizontal container */
+        .horizontal-container {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            padding: 10px 0;
+            gap: 10px;
+        }
+
+        /* Individual image item */
+        .image-item {
+            flex: 0 0 auto;
+            max-width: 200px;
+        }
+
+        /* Image styling */
+        .image-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Image title */
+        .image-title {
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        /* Footer styling */
+        footer {
+            padding: 20px;
+            background-color: #333;
+            text-align: center;
+        }
+
+        /* Feedback form styling */
+        .feedback-form {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .feedback-form input[type="text"],
+        .feedback-form input[type="email"],
+        .feedback-form input[type="submit"] {
+            padding: 10px;
+            margin: 5px;
+            width: 250px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .feedback-form input[type="submit"] {
+            background-color: red;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Content -->
+    <div class="content">
+        <header>
+            <figure>
+                <!-- The logo with inline CSS -->
+                <a href="#top">
+                    <img alt="logo" height="90" src="Gold Luxury Initial Circle Logo_20240424_190905_0000.png" width="100">
+                </a>
+            </figure>
+
+            <!-- Navigation -->
+            <nav>
+                <ul>
+                    <!-- Linking my pages to their individual text -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="films.html">Movies</a></li>
+                    <li><a href="Series.html">TV Shows</a></li>
+                    <li><a href="Games&Apps.html">Games & Apps</a></li>
+                    <li><a href="Collections.html">Collections</a></li>
+                    <li><a href="review.html">Feedback</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Warner Bros Entertainment. All Rights Reserved.</p>
+            <p>About Us</p>
+            <p>Contact Us On </p>
+            <ul>
+                <li>Whatsapp</li>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Telegram</li>
+                <li>Twitter</li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
