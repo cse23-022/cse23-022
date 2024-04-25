@@ -77,12 +77,14 @@
         .image-item {
             flex: 0 0 auto;
             max-width: 200px;
+            text-align: center; /* Center images */
         }
 
         /* Image styling */
         .image-item img {
             width: 100%;
             height: auto;
+            border-radius: 10px; /* Rounded corners */
         }
 
         /* Image title */
@@ -98,26 +100,14 @@
             text-align: center;
         }
 
-        /* Feedback form styling */
-        .feedback-form {
-            margin-top: 20px;
-            text-align: center;
+        footer ul {
+            padding: 0;
+            list-style: none;
         }
 
-        .feedback-form input[type="text"],
-        .feedback-form input[type="email"],
-        .feedback-form input[type="submit"] {
-            padding: 10px;
-            margin: 5px;
-            width: 250px;
-            border: none;
-            border-radius: 5px;
-        }
-
-        .feedback-form input[type="submit"] {
-            background-color: red;
-            color: white;
-            cursor: pointer;
+        footer ul li {
+            display: inline;
+            margin-right: 10px;
         }
     </style>
 </head>
@@ -146,8 +136,10 @@
                 </ul>
             </nav>
         </header>
-        <li>The Top 5 Games</li>
-          <!-- Horizontal container for images -->
+        
+        <!-- Top 5 Games -->
+        <h2>The Top 5 Games</h2>
+        <!-- Horizontal container for images -->
         <div class="horizontal-container">
             <!-- Image items -->
             <div class="image-item">
@@ -158,57 +150,58 @@
                 <img alt="The FALLOUT" src="need.jpeg" width="149" height="234">
                 <div class="image-title">The Need For Speed </div>
             </div>
-             <div class="image-item">
+            <div class="image-item">
                 <img alt="The FALLOUT" src="nfs.jpeg" width="149" height="234">
                 <div class="image-title">The Need For Speed</div>
             </div>
-             <div class="image-item">
+            <div class="image-item">
                 <img alt="The need for speed pro" src="nfspro.jpeg" width="149" height="234">
                 <div class="image-title">The Need Speed Pro Street </div>
             </div>
-             <div class="image-item">
+            <div class="image-item">
                 <img alt="The Eurotruck" src="euro.jpeg" width="149" height="234">
                 <div class="image-title">The Eurotruck</div>
             </div>
-             <div class="image-item">
+            <div class="image-item">
                 <img alt="The Fifa 14" src="f4.jpeg" width="149" height="234">
                 <div class="image-title">The Fifa 14</div>
             </div>
-        <li>The Top 5 Movies</li>
-               <!-- Horizontal container for images -->
+        </div>
+
+        <!-- Top 5 Movies -->
+        <h2>The Top 5 Movies</h2>
+        <!-- Horizontal container for images -->
         <div class="horizontal-container">
             <!-- Image items -->
             <div class="image-item">
                 <img alt="The FALLOUT" src="Fallout.jpg" width="149" height="234">
                 <div class="image-title">The Fallout</div>
             </div>
-
             <div class="image-item">
                 <img alt="The Book of Daniel" src="The Book of Daniel.jpeg" width="149" height="234">
                 <div class="image-title">The Book of Daniel</div>
             </div>
-  
             <div class="image-item">
                 <img alt="Lift" src="Lift.jpeg" width="149" height="234">
                 <div class="image-title">Lift</div>
             </div>
-            
             <div class="image-item">
                 <img alt="The Wicked" src="Wicked.png" width="149" height="234">
                 <div class="image-title">The Wicked</div>
             </div>
-            
             <div class="image-item">
                 <img alt="The Bricklayer" src="he-bricklayer-film-poster.jpg" width="149" height="234">
                 <div class="image-title">The Bricklayer</div>
             </div>
-            
             <div class="image-item">
                 <img alt="Jeremiah the Prophet" src="Jeremiah the Prophet.jpg" width="149" height="234">
                 <div class="image-title">Jeremiah the Prophet</div>
             </div>
-        <li>The Top 5 Series</li>
-            <!-- Horizontal container for images -->
+        </div>
+
+        <!-- Top 5 Series -->
+        <h2>The Top 5 Series</h2>
+        <!-- Horizontal container for images -->
         <div class="horizontal-container">
             <!-- Image items -->
             <div class="image-item">
@@ -223,7 +216,16 @@
                 <img alt="The Obbession" src="obs.jpeg" width="149" height="234">
                 <div class="image-title">The Obbession</div>
             </div>
-        <li>The Top 5 Apps</li>
+        </div>
+
+        <!-- Top 5 Apps -->
+        <h2>The Top 5 Apps</h2>
+        <!-- Horizontal container for images -->
+        <div class="horizontal-container">
+            <!-- Image items -->
+            <!-- Add your app images here -->
+        </div>
+        
         <!-- Footer -->
         <footer>
             <p>&copy; 2024 Warner Bros Entertainment. All Rights Reserved.</p>
