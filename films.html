@@ -54,6 +54,40 @@
             border: none;
             cursor: pointer;
         }
+        
+        /* Background color */
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Horizontal container */
+        .horizontal-container {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            padding: 10px 0;
+            gap: 10px;
+        }
+
+        /* Individual image item */
+        .image-item {
+            flex: 0 0 auto;
+            max-width: 200px;
+        }
+
+        /* Image styling */
+        .image-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Image title */
+        .image-title {
+            text-align: center;
+            margin-top: 5px;
+        }
     </style>
 </head>
 
@@ -80,47 +114,54 @@
                     <li><a href="review.html">Feedback</a></li>
                 </ul>
             </nav>
+        </header>
+        
+        <!-- Horizontal container for images -->
         <div class="horizontal-container">
-          <div class="image item">
-             <img alt="The FALLOUT" height="234" src="Fallout.jpg"width="149"
-             <div class="image-title">The Fallout</div>
-          </div>
+            <!-- Image items -->
+            <div class="image-item">
+                <img alt="The FALLOUT" src="Fallout.jpg" width="149" height="234">
+                <div class="image-title">The Fallout</div>
+            </div>
 
-          <div class="image-item">
-              <img alt="The Book of Daniel" height="234" src="The Book of Daniel.jpeg" width="149>
-              <div class="image-title">The Book of Daniel</div>
-          </div>
+            <div class="image-item">
+                <img alt="The Book of Daniel" src="The Book of Daniel.jpeg" width="149" height="234">
+                <div class="image-title">The Book of Daniel</div>
+            </div>
   
-        <div class="image-item">
-              <img alt="Lift" height="234" src="Lift.jpeg" width="149>
-              <div class="image-title">Lift</div>
-          </div>
-        <div class="image-item">
-              <img alt="The Book of Daniel" height="234" src="Wicked.png" width="149>
-              <div class="image-title">The Wicked</div>
-          </div>
-        <div class="image-item">
-              <img alt="The Book of Daniel" height="234" src="he-bricklayer-film-poster.jpg" width="149>
-              <div class="image-title">The-Bricklayer</div>
-          </div>
-        <div class="image-item">
-              <img alt="Jeremiah the Prophet" height="234" src="Jeremiah the Prophet.jpg" width="149>
-              <div class="image-title">Jeremiah the Prophet</div>
-          </div>
-      
-       </header>
-    
+            <div class="image-item">
+                <img alt="Lift" src="Lift.jpeg" width="149" height="234">
+                <div class="image-title">Lift</div>
+            </div>
+            
+            <div class="image-item">
+                <img alt="The Wicked" src="Wicked.png" width="149" height="234">
+                <div class="image-title">The Wicked</div>
+            </div>
+            
+            <div class="image-item">
+                <img alt="The Bricklayer" src="he-bricklayer-film-poster.jpg" width="149" height="234">
+                <div class="image-title">The Bricklayer</div>
+            </div>
+            
+            <div class="image-item">
+                <img alt="Jeremiah the Prophet" src="Jeremiah the Prophet.jpg" width="149" height="234">
+                <div class="image-title">Jeremiah the Prophet</div>
+            </div>
+        </div>
+
         <!-- Footer -->
         <footer>
             <p>&copy; 2024 Warner Bros Entertainment. All Rights Reserved.</p>
-          <p>About Us</p>
-          <p>Contact Us On </p>
-          <li>Whatsapp</li>
-          <li>Instagram</li>
-          <li>Facebook</li>
-          <li>Telegram</li>
-          <li>Twitter</li>
-          <li></li>
+            <p>About Us</p>
+            <p>Contact Us On </p>
+            <ul>
+                <li>Whatsapp</li>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Telegram</li>
+                <li>Twitter</li>
+            </ul>
         </footer>
     </div>
 </body>
