@@ -66,6 +66,34 @@
             position: relative; /* Position relative for footer positioning */
         }
 
+        /* Horizontal container */
+        .horizontal-container {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            padding: 10px 0;
+            gap: 10px;
+        }
+
+        /* Individual image item */
+        .image-item {
+            flex: 0 0 auto;
+            max-width: 200px;
+        }
+
+        /* Image styling */
+        .image-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Image title */
+        .image-title {
+            text-align: center;
+            margin-top: 5px;
+        }
+
+
         /* Footer styling */
         footer {
             position: absolute; /* Position footer absolutely */
@@ -102,6 +130,14 @@
                 <a href="#top">
                     <img alt="logo" height="90" src="WarnerBros.jpeg" width="100"/>
                 </a>
+
+                <!-- Search Bar -->
+            <div class="search-container">
+                <form action="/search" method="GET">
+                    <input type="text" name="q" placeholder="Search...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
             </figure>
 
             <!-- Navigation -->
@@ -117,14 +153,41 @@
                 </ul>
             </nav>
 
-            <!-- Search Bar -->
-            <div class="search-container">
-                <form action="/search" method="GET">
-                    <input type="text" name="q" placeholder="Search...">
-                    <button type="submit">Search</button>
-                </form>
-            </div>
+            
         </header>
+
+        <div class="horizontal-container">
+            <!-- Image items -->
+            <div class="image-item">
+                <img alt="The FALLOUT" src="Fallout.jpg" width="149" height="234">
+                <div class="image-title">The Fallout</div>
+            </div>
+
+            <div class="image-item">
+                <img alt="The Book of Daniel" src="The Book of Daniel.jpeg" width="149" height="234">
+                <div class="image-title">The Book of Daniel</div>
+            </div>
+  
+            <div class="image-item">
+                <img alt="Lift" src="Lift.jpeg" width="149" height="234">
+                <div class="image-title">Lift</div>
+            </div>
+            
+            <div class="image-item">
+                <img alt="The Wicked" src="Wicked.png" width="149" height="234">
+                <div class="image-title">The Wicked</div>
+            </div>
+            
+            <div class="image-item">
+                <img alt="The Bricklayer" src="the-bricklayer-film-poster.jpg" width="149" height="234">
+                <div class="image-title">The Bricklayer</div>
+            </div>
+            
+            <div class="image-item">
+                <img alt="Jeremiah the Prophet" src="Jeremiah the Prophet.jpg" width="149" height="234">
+                <div class="image-title">Jeremiah the Prophet</div>
+            </div>
+        </div>
     </div>
 
     <!-- Footer -->
