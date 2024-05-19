@@ -21,7 +21,7 @@
 
         /* Text color for navigation links */
         nav ul li a {
-            color: #FDD700;
+            color: white;
             text-decoration: none; /* Remove underline */
             transition: color 0.3s; /* Smooth color transition */
         }
@@ -54,16 +54,14 @@
             border: none;
             cursor: pointer;
         }
-        
-           /* Background color */
-       body {
-            background-color: black; /* Set background color to black */
-            color: #FFD700; /* Set text color back to gold */
-            font-family: Arial, sans-serif; /* Set font family */
+
+        /* Background color */
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
             margin: 0; /* Remove default margin */
             padding: 0; /* Remove default padding */
-            min-height: 100vh; /* Ensure page takes up at least the full height of the viewport */
-            position: relative; /* Position relative for footer positioning */
         }
 
         /* Horizontal container */
@@ -77,36 +75,70 @@
 
         /* Individual image item */
         .image-item {
+            position: relative;
             flex: 0 0 auto;
             max-width: 200px;
+            text-align: center; /* Center images */
         }
 
         /* Image styling */
         .image-item img {
             width: 100%;
             height: auto;
+            border-radius: 10px; /* Rounded corners */
         }
 
-        /* Image title */
-        .image-title {
+        /* Overlay for hover effect */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+            border-radius: 10px; /* Match the image's rounded corners */
+        }
+
+        /* Show overlay on hover */
+        .image-item:hover .overlay {
+            opacity: 1;
+        }
+
+        .overlay-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .overlay-desc {
+            font-size: 0.9em;
+            margin-bottom: 20px;
             text-align: center;
-            margin-top: 5px;
+            padding: 0 10px;
         }
 
+        .overlay-button {
+            padding: 10px 20px;
+            background-color: red;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 1em;
+            border-radius: 5px;
+        }
 
         /* Footer styling */
         footer {
-            position: absolute; /* Position footer absolutely */
-            bottom: 0; /* Align footer to the bottom of the page */
-            width: 100%; /* Full width */
             padding: 20px;
             background-color: #FFD700;
             text-align: center;
             color: black;
-        }
-
-        footer p, footer ul {
-            margin: 10px 0;
         }
 
         footer ul {
@@ -132,12 +164,12 @@
                 </a>
 
                 <!-- Search Bar -->
-            <div class="search-container">
-                <form action="/search" method="GET">
-                    <input type="text" name="q" placeholder="Search...">
-                    <button type="submit">Search</button>
-                </form>
-            </div>
+                <div class="search-container">
+                    <form action="/search" method="GET">
+                        <input type="text" name="q" placeholder="Search...">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
             </figure>
 
             <!-- Navigation -->
@@ -152,57 +184,124 @@
                     <li><a href="review.html">Feedback</a></li>
                 </ul>
             </nav>
-
-            
         </header>
 
+        <!-- Newly released -->
+        <h2>Just released</h2>
+        <!-- Horizontal container for images -->
+        <div class="horizontal-container">
+            <!-- Image items -->
+            <div class="image-item">
+                <img alt="movie" src="Lift.jpeg" width="149" height="234">
+                <div class="overlay">
+                    <div class="overlay-title">Lift</div>
+                    <div class="overlay-desc">Description for Lift</div>
+                    <button class="overlay-button">Play</button>
+                </div>
+            </div>
+            <div class="image-item">
+                <img alt="The FALLOUT" src="Fallout.jpg" width="149" height="234">
+                <div class="overlay">
+                    <div class="overlay-title">Fallout</div>
+                    <div class="overlay-desc">Description for Fallout</div>
+                    <button class="overlay-button">Play</button>
+                </div>
+            </div>
+            <div class="image-item">
+                <img alt="The FALLOUT" src="Extraction 2.jpg" width="149" height="234">
+                <div class="overlay">
+                    <div class="overlay-title">Extraction 2</div>
+                    <div class="overlay-desc">Description for Extraction 2</div>
+                    <button class="overlay-button">Play</button>
+                </div>
+            </div>
+            <div class="image-item">
+                <img alt="The need for speed pro" src="obs.jpeg" width="149" height="234">
+                <div class="overlay">
+                    <div class="overlay-title">Obsession</div>
+                    <div class="overlay-desc">Description for Obsession</div>
+                    <button class="overlay-button">Play</button>
+                </div>
+            </div>
+            <div class="image-item">
+                <img alt="The Eurotruck" src="The equalizer.jpg" width="149" height="234">
+                <div class="overlay">
+                    <div class="overlay-title">The Equaliser</div>
+                    <div class="overlay-desc">Description for The Equaliser</div>
+                    <button class="overlay-button">Play</button>
+                </div>
+            </div>
+            <div class="image-item">
+                <img alt="The Fifa 14" src="the-bricklayer-film-poster.jpg" width="149" height="234">
+                <div class="overlay">
+                    <div class="overlay-title">The Bricklayer</div>
+                    <div class="overlay-desc">Description for The Bricklayer</div>
+                    <button class="overlay-button">Play</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Coming Soon -->
+        <h2>Coming Soon</h2>
+        <!-- Horizontal container for images -->
         <div class="horizontal-container">
             <!-- Image items -->
             <div class="image-item">
                 <img alt="The FALLOUT" src="Fallout.jpg" width="149" height="234">
-                <div class="image-title">The Fallout</div>
+                <div class="overlay">
+                    <div class="overlay-title">The Fallout</div>
+                    <div class="overlay-desc">Description for The Fallout</div>
+                    <button class="overlay-button">Play</button>
+                </div>
             </div>
-
             <div class="image-item">
                 <img alt="The Book of Daniel" src="The Book of Daniel.jpeg" width="149" height="234">
-                <div class="image-title">The Book of Daniel</div>
+                <div class="overlay">
+                    <div class="overlay-title">The Book of Daniel</div>
+                    <div class="overlay-desc">Description for The Book of Daniel</div>
+                    <button class="overlay-button">Play</button>
+                </div>
             </div>
-  
             <div class="image-item">
                 <img alt="Lift" src="Lift.jpeg" width="149" height="234">
-                <div class="image-title">Lift</div>
+                <div class="overlay">
+                    <div class="overlay-title">Lift</div>
+                    <div class="overlay-desc">Description for Lift</div>
+                    <button class="overlay-button">Play</button>
+                </div>
             </div>
-            
             <div class="image-item">
                 <img alt="The Wicked" src="Wicked.png" width="149" height="234">
-                <div class="image-title">The Wicked</div>
+                <div class="overlay">
+                    <div class="overlay-title">The Wicked</div>
+                    <div class="overlay-desc">Description for The Wicked</div>
+                    <button class="overlay-button">Play</button>
+                </div>
             </div>
-            
             <div class="image-item">
                 <img alt="The Bricklayer" src="the-bricklayer-film-poster.jpg" width="149" height="234">
-                <div class="image-title">The Bricklayer</div>
-            </div>
-            
-            <div class="image-item">
-                <img alt="Jeremiah the Prophet" src="Jeremiah the Prophet.jpg" width="149" height="234">
-                <div class="image-title">Jeremiah the Prophet</div>
+                <div class="overlay">
+                    <div class="overlay-title">The Bricklayer</div>
+                    <div class="overlay-desc">Description for The Bricklayer</div>
+                    <button class="overlay-button">Play</button>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Warner Bros Entertainment. All Rights Reserved.</p>
-        <p>About Us</p>
-        <p>Contact Us On </p>
-        <ul>
-            <li>Whatsapp</li>
-            <li>Instagram</li>
-            <li>Facebook</li>
-            <li>Telegram</li>
-            <li>Twitter</li>
-        </ul>
-    </footer>
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Warner Bros Entertainment. All Rights Reserved.</p>
+            <p>About Us</p>
+            <p>Contact Us On </p>
+            <ul>
+                <li>Whatsapp</li>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Telegram</li>
+                <li>Twitter</li>
+            </ul>
+        </footer>
+    </div>
 </body>
 
 </html>
