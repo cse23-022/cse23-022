@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html class="is-hero-active" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Garfield Movie | HOYTS Cinemas</title>
+<meta name="description" content="Garfield is an animated feature film based on the popular comic strip about a sarcastic, lasagna-loving cat. Find out more.">
+<meta property="og:title" content="The Garfield Movie | HOYTS Cinemas">
+<meta property="og:description" content="Garfield is an animated feature film based on the popular comic strip about a sarcastic, lasagna-loving cat. Find out more.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://imgix.hoyts.com.au/mx/posters/au/the-garfield-movie-0d272068.jpg">
+<meta property="og:url" content="https://www.hoyts.com.au/movies/the-garfield-movie">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://www.hoyts.com.au/movies/the-garfield-movie">
+<meta property="twitter:title" content="The Garfield Movie | HOYTS Cinemas">
+<meta property="twitter:description" content="Garfield is an animated feature film based on the popular comic strip about a sarcastic, lasagna-loving cat. Find out more.">
+<meta property="twitter:image" content="https://imgix.hoyts.com.au/mx/posters/au/the-garfield-movie-0d272068.jpg">
+<meta name="theme-color" content="#2e2e2e">
+<link rel="canonical" href="https://www.hoyts.com.au/movies/the-garfield-movie">
+<link rel="alternate" href="https://www.hoyts.com.au/movies/the-garfield-movie" hreflang="en-au">
+<link rel="alternate" href="https://www.hoyts.co.nz/movies/the-garfield-movie" hreflang="en-nz">
+<link rel="icon" href="/favicon.ico?v=JwrpciMrlDjwArIUyn0A47tZZkKh2FOcJuvlLbR95h4">
+<link rel="stylesheet" href="/css/20240516.2/styles.min.css?v=5HQKBpAgEu5vfh9lO9OrWSZQUAFgfprLYYkJIRAyYsQ">
+<link rel="preconnect" href="https://www.google.com">
+<link rel="preconnect" href="https://static.zdassets.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script type="e923d03b63a48d0b1343e781-module" crossorigin src="/vue/20240516.2/index.js?v=CYZcWUocc2W1E2y-asdE9M6NGHah9kA-yUa54-l_MjM"></script>
+<style id="transition-override">
+        * {
+            transition: none !important;
+        }
+    </style>
+<script type="e923d03b63a48d0b1343e781-text/javascript">
+        document.getElementById('transition-override').remove();
+    </script>
+
+<script type="e923d03b63a48d0b1343e781-text/javascript">
+        window.member = window.member ?? (() => {
+            const cacheKey = 'hoyts.member';
+            const json = window.sessionStorage.getItem(cacheKey);
+            if (!json) return null;
+            const item = JSON.parse(json);
+            if (!item._expiry) return item;
+            if (item._expiry < Date.now()) return null;
+            return item.value;
+        })();
+        window.dataLayer = window.dataLayer || [];
+        if (member?.hashMemberId) window.dataLayer.push({ 'userId': member.hashMemberId });
+        if (member?.memberType) window.dataLayer.push({ 'memberType': member.memberType });
+        if (member?.hashEmail) window.dataLayer.push({ 'memberHashEmail': member.hashEmail });
+        if (member?.hashMobilePhone) window.dataLayer.push({ 'memberHashPhone': member.hashMobilePhone });
+        function gtag() { dataLayer.push(arguments); }
+    </script>
+<script type="e923d03b63a48d0b1343e781-text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NHJL9DW');</script>
+
+</head>
+<body>
+<nav class="clipped" aria-label="Skip to links">
+<a href="#dash__nav"><span>Skip to navigation</span></a>
+<a href="#main-content"><span>Skip to content</span></a>
+</nav>
+
+<noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHJL9DW" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+
+<div class="loader loader--layout">
+<div class="loader__dots"></div>
+</div>
+<div id="booking-notification"></div>
+<div id="login"></div>
+<div id="cinema-selection-modal"></div>
+<div id="snack-cinemas"></div>
+<div id="birthday-enquiry"></div>
+<div id="white-label"></div>
+<div class="gallery">
+<button class="gallery__close-button" aria-label="Close" type="button">
+<svg class="gallery__close-icon" width="24" height="24" fill="none" title="Close Gallery">
+<use xlink:href="/images/icons-1.0.0.svg#icon-circular-cross"></use>
+</svg>
+</button>
+<button class="gallery__prev-button" type="button">
+<svg class="gallery__prev-icon" width="14" height="22" fill="none" title="Previous">
+<use xlink:href="/images/icons-1.0.0.svg#icon-arrow-left"></use>
+</svg>
+</button>
+<button class="gallery__next-button" type="button">
+<svg class="gallery__next-icon" width="14" height="22" fill="none" title="Next">
+<use xlink:href="/images/icons-1.0.0.svg#icon-arrow-right"></use>
+</svg>
+</button>
+<img class="gallery__image" alt />
+</div>
+<div class="video-player">
+<button class="video-player__close-button" aria-label="Close" type="button">
+<svg class="video-player__close-icon" width="24" height="24" fill="none" title="Close Video Player">
+<use xlink:href="/images/icons-1.0.0.svg#icon-circular-cross"></use>
+</svg>
+</button>
+<iframe class="video-player__iframe" aria-hidden="true" width="1920" height="1080" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<span class="gradient"></span>
+<div class="dash">
+<div class="dash__page">
+<nav id="dash__nav" class="dash__nav">
+<div class="dash__logo">
+<a class="dash__logo-link" href="/">
+<svg class="dash__logo-icon" width="133" height="40" fill="none" title="HOYTS">
+<use xlink:href="/images/icons-1.0.0.svg#icon-logo"></use>
+</svg>
+</a>
+</div>
+<button class="dash__close-button" aria-label="Close" type="button">
+<svg class="dash__close-icon" width="30" height="30" fill="none" title="Close Menu">
+<use xlink:href="/images/icons-1.0.0.svg#icon-cross"></use>
+</svg>
+</button>
+<div class="dash__search">
+<div class="dash__search-ui">
+<button class="dash__search-button" aria-label="Search" type="button">
+<svg width="20" height="20" fill="none" title="Search">
+<use xlink:href="/images/icons-1.0.0.svg#icon-magnifying-glass"></use>
+</svg>
+</button>
+<button class="dash__search-clear" type="button" tabindex="-1">Clear</button>
+<label id="dash__search-label" class="clipped">Enter search terms</label>
+<input class="dash__search-input" aria-labelledBy="dash__search-label" placeholder="Search movies and more..." autocomplete="off">
+</div>
+<div class="dash__search-results">
+<span class="dash__search-heading">Search</span>
+<ul class="dash__search-list"></ul>
+</div>
+</div>
+<ul class="dash__list dash__list--primary">
+<li class="dash__item">
+<a class="dash__link is-selected" href="/movies">
+<svg class="dash__icon" width="24" height="24" fill="none">
+<use xlink:href="/images/icons-1.0.0.svg#icon-film"></use>
+</svg>
+<span class="dash__text dash__text--primary">Movies</span>
+</a>
+</li>
+<li class="dash__item">
+<a class="dash__link " href="/session-times">
+<svg class="dash__icon" width="24" height="24" fill="none">
+<use xlink:href="/images/icons-1.0.0.svg#icon-tickets"></use>
+</svg>
+<span class="dash__text dash__text--primary">Session Times</span>
+</a>
+</li>
+<li class="dash__item">
+<a class="dash__link " href="/cinemas">
+<svg class="dash__icon" width="24" height="24" fill="none">
+<use xlink:href="/images/icons-1.0.0.svg#icon-camera"></use>
+</svg>
+<span class="dash__text dash__text--primary">Cinemas</span>
+</a>
+</li>
+<li class="dash__item">
+<a class="dash__link " href="/events">
+<svg class="dash__icon" width="24" height="24" fill="none">
+<use xlink:href="/images/icons-1.0.0.svg#icon-calendar"></use>
+</svg>
+<span class="dash__text dash__text--primary">Events & Festivals</span>
+</a>
+</li>
+<li class="dash__item">
+<a id="dash__link--rewards" class="dash__link " href="/rewards">
+<svg class="dash__icon" width="24" height="24" fill="none">
+<use xlink:href="/images/icons-1.0.0.svg#icon-star"></use>
+</svg>
+<span class="dash__text dash__text--primary">HOYTS Rewards</span>
+</a>
+</li>
+</ul>
+<ul class="dash__list dash__list--secondary">
+<li class="dash__item">
+<a class="dash__link " href="/offers">
+<span class="dash__text dash__text--secondary">Offers & Promotions</span>
+</a>
+</li>
+<li class="dash__item">
+<a class="dash__link " href="/experiences">
+<span class="dash__text dash__text--secondary">Experiences</span>
+</a>
+</li>
+<li class="dash__item">
+<a class="dash__link " href="/food-and-drinks">
+<span class="dash__text dash__text--secondary">Food & Drink</span>
+</a>
+</li>
+<li class="dash__item">
+<a class="dash__link" href="https://store.hoyts.com.au/" target="_blank">
+<span class="dash__text dash__text--secondary">Gift Shop</span>
+</a>
+</li>
+<li class="dash__item">
+<a class="dash__link " href="/functions">
+<span class="dash__text dash__text--secondary">Functions & Parties</span>
+</a>
+</li>
+<li class="dash__item">
+<a class="dash__link " href="/accessibility">
+<span class="dash__text dash__text--secondary">Accessibility</span>
+</a>
+</li>
+</ul>
+</nav>
+<div class="dash__content">
+<header class="header">
+<div class="header__hamburger">
+<button class="header__hamburger-button" aria-label="Menu" type="button">
+<svg class="header__hamburger-icon" width="30" height="30" fill="none" title="Toggle Menu">
+<use xlink:href="/images/icons-1.0.0.svg#icon-hamburger"></use>
+</svg>
+</button>
+</div>
+<a class="header__link" aria-label="Header link" href="/">
+<svg class="header__logo" width="100" height="30" fill="none" title="HOYTS">
+<use xlink:href="/images/icons-1.0.0.svg#icon-logo"></use>
+</svg>
+</a>
+<div class="header__search">
+<div class="header__search-ui">
+<button class="header__search-button" type="button">
+<svg width="20" height="20" fill="none" title="Search">
+<use xlink:href="/images/icons-1.0.0.svg#icon-magnifying-glass"></use>
+</svg>
+</button>
+<button class="header__search-clear" type="button" tabindex="-1">Clear</button>
+<label id="header__search-label" class="clipped">Enter search terms</label>
+<input class="header__search-input" aria-labelledBy="dash__search-label" placeholder="Search movies and more..." autocomplete="off">
+</div>
+<div class="header__search-results">
+<span class="header__search-heading">Search</span>
+<ul class="header__search-list"></ul>
+</div>
+</div>
+<div class="header__profile" id="header-profile">
+<button class="header__profile-button" type="button" aria-label="My Rewards">
+<svg class="header__profile-icon header__profile-icon--red" width="24" height="24" fill="none">
+<use xlink:href="/images/icons-1.0.0.svg#icon-user"></use>
+</svg>
+<svg class="header__profile-icon header__profile-icon--white" width="24" height="24" fill="none">
+<use xlink:href="/images/icons-1.0.0.svg#icon-user"></use>
+</svg>
+<span class="header__profile-text">Log In</span>
+</button>
+</div>
+</header>
+<main class="main" id="main-content">
+<div class="hero hero--centered-background">
+<div class="hero__container">
+<div class="hero__foreground">
+<img class="hero__poster" src="https://imgix.hoyts.com.au:443/mx/posters/au/the-garfield-movie-0d272068.jpg?fit=crop&amp;auto=compress%2cformat&amp;w=160&amp;h=240" placement="poster" alt loading="lazy" srcset="https://imgix.hoyts.com.au:443/mx/posters/au/the-garfield-movie-0d272068.jpg?fit=crop&amp;auto=compress%2cformat&amp;w=102&amp;h=152 102w,https://imgix.hoyts.com.au:443/mx/posters/au/the-garfield-movie-0d272068.jpg?fit=crop&amp;auto=compress%2cformat&amp;w=153&amp;h=228 153w,https://imgix.hoyts.com.au:443/mx/posters/au/the-garfield-movie-0d272068.jpg?fit=crop&amp;auto=compress%2cformat&amp;w=204&amp;h=304 204w,https://imgix.hoyts.com.au:443/mx/posters/au/the-garfield-movie-0d272068.jpg?fit=crop&amp;auto=compress%2cformat&amp;w=160&amp;h=240 160w,https://imgix.hoyts.com.au:443/mx/posters/au/the-garfield-movie-0d272068.jpg?fit=crop&amp;auto=compress%2cformat&amp;w=240&amp;h=360 240w,https://imgix.hoyts.com.au:443/mx/posters/au/the-garfield-movie-0d272068.jpg?fit=crop&amp;auto=compress%2cformat&amp;w=320&amp;h=480 320w" sizes="(max-width: 640px) 102px, 160px" width="160" height="240" />
+<div class="hero__wrapper">
+<span class="attribute attribute--advance-sale">Tickets On Sale</span>
+<h1 class="hero__heading">The Garfield Movie</h1>
+<div class="hero__details">
+<svg class="rating rating--au-g" fill="none" title="G">
+<use xlink:href="/images/icons-1.0.0.svg#icon-rating-au-g"></use>
+</svg>
+<span class="hero__duration">101 min</span>
+<span class="hero__pipe">|</span>
+<span class="hero__release-date">30 May 2024</span>
+</div>
+<p class="hero__notes">Very mild themes, slapstick violence and infrequent coarse language</p>
+<ul class="actions">
+<li class="actions__item">
+<a class="actions__item-link video-player__play-link" href="https://www.youtube.com/watch?v=ssM7srcz49w" target="_blank" data-video-id="ssM7srcz49w" data-video-name="The Garfield Movie">
+<svg class="actions__item-icon" width="24" height="24" fill="none">
+<use xlink:href="/images/icons-1.0.0.svg#icon-circular-play"></use>
+</svg>
+<span class="actions__item-text">Trailer</span>
+</a>
+</li>
+<li class="actions__item">
+<button class="actions__item-button actions__item-button--watchlist action__item-button--watchlist-ssr" type="button" data-id="HO00008233" data-name="The Garfield Movie">
+<span class="actions__item-icons">
+<svg class="actions__item-icon" width="24" height="24" fill="none">
+<use xlink:href="/images/icons-1.0.0.svg#icon-circular-heart"></use>
+</svg>
+<svg class="actions__item-icon actions__item-icon--solid" width="24" height="24" fill="none">
+<use xlink:href="/images/icons-1.0.0.svg#icon-circular-heart--solid"></use>
+</svg>
+<span class="loader loader--watchlist-button">
+<span class="loader__ripple"></span>
+</span>
+</span>
+<span class="actions__item-text">Watchlist</span>
+</button>
+</li>
+</ul>
+</div>
+</div>
+<span class="hero__scrim"></span>
+<picture class="hero__background">
+<source media="(max-width: 360px)" sizes="100vw" width="360" height="310" srcset="https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=360&amp;h=310 360w,https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=540&amp;h=465 540w,https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=720&amp;h=620 720w">
+<source media="(max-width: 640px)" sizes="100vw" width="640" height="310" srcset="https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=640&amp;h=310 640w,https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=960&amp;h=465 960w,https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=1280&amp;h=620 1280w">
+<source media="(max-width: 1024px)" sizes="100vw" width="1024" height="400" srcset="https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=1024&amp;h=400 1024w,https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=1536&amp;h=600 1536w,https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=2048&amp;h=800 2048w">
+<source media="(max-width: 1240px)" sizes="100vw" width="1240" height="400" srcset="https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=1240&amp;h=400 1240w,https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=1860&amp;h=600 1860w,https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=2480&amp;h=800 2480w">
+<source media="(max-width: 1386px)" sizes="calc(100vw - 320px)" width="1106" height="400" srcset="https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=1106&amp;h=400 1106w,https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=1659&amp;h=600 1659w,https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=2212&amp;h=800 2212w">
+<source media="(max-width: 1680px)" sizes="calc(100vw - 320px)" width="1400" height="400" srcset="https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=1400&amp;h=400 1400w,https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=2100&amp;h=600 2100w,https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=2800&amp;h=800 2800w">
+<source media="(max-width: 1920px)" sizes="calc(100vw - 320px)" width="1640" height="600" srcset="https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=1640&amp;h=600 1640w,https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=2460&amp;h=900 2460w,https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=3280&amp;h=1200 3280w">
+<img class="hero__background-image" width="2280" height="600" src="https://imgix.hoyts.com.au:443/mx/headers/the-garfield-movie-b5760217.jpg?fit=crop&amp;auto=compress%2cformat&amp;crop=faces%2centropy&amp;w=2280&amp;h=600" data-ignore alt />
+</picture>
+</div>
+<div class="hero__summary">
+<p class="hero__description">Garfield (voiced by Chris Pratt), the world-famous, Monday-hating, lasagna-loving indoor cat, is about to have a wild outdoor adventure! </p>
+</div>
+</div>
+<div class="widget">
+<div class="widget__padding">
+<div class="container">
+<div class="movie-rewards">
+<div class="movie-rewards__copy">
+<h2 class="movie-rewards__heading">Secure your seats to see Garfield back on the big screen!</h2>
+<p class="movie-rewards__description">Everyone&#x27;s favourite Monday-hating, lasagna-loving cat is back. Book your tickets now.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="session-times" data-id="movie:the-garfield-movie"></div>
+<div class="widget">
+<div class="widget__padding">
+<div class="container">
+<h2 class="widget__heading">Teasers & Trailers</h2>
+</div>
+</div>
+<div class="swiper-buttons generic-swiper">
+<button class="swiper-button swiper-button--prev generic-swiper__prev" aria-label="Previous" type="button">
+<svg width="14" height="22" fill="none" title="Previous">
+<use xlink:href="/images/icons-1.0.0.svg#icon-arrow-left"></use>
+</svg>
+</button>
+<button class="swiper-button swiper-button--next generic-swiper__next" aria-label="Next" type="button">
+<svg width="14" height="22" fill="none" title="Next">
+<use xlink:href="/images/icons-1.0.0.svg#icon-arrow-right"></use>
+</svg>
+</button>
+<div class="widget__padding widget__padding--swiper">
+<div class="generic-swiper__container">
+<div class="swiper-wrapper">
+<div class="swiper-slide trailer-slide">
+<a class="trailer-slide__link video-player__play-link" href="https://www.youtube.com/watch?v=-k6cv3PtYQc" data-video-id="-k6cv3PtYQc" data-video-name="Indoor Cat Outdoor Adventure">
+<svg class="trailer-slide__icon" width="40" height="40" fill="none">
+<use xlink:href="/images/icons-1.0.0.svg#icon-circular-play"></use>
+</svg>
+<span class="trailer-slide__heading">Indoor Cat Outdoor Adventure</span>
+<span class="trailer-slide__scrim"></span>
+<img class="trailer-slide__image" src="https://img.youtube.com/vi/-k6cv3PtYQc/hqdefault.jpg" placement="widget-trailer-swiper" alt loading="lazy" />
+</a>
+</div>
+<div class="swiper-slide trailer-slide">
+<a class="trailer-slide__link video-player__play-link" href="https://www.youtube.com/watch?v=JRSAWgLSclE" data-video-id="JRSAWgLSclE" data-video-name="Mukbang ASMR">
+<svg class="trailer-slide__icon" width="40" height="40" fill="none">
+<use xlink:href="/images/icons-1.0.0.svg#icon-circular-play"></use>
+</svg>
+<span class="trailer-slide__heading">Mukbang ASMR</span>
+<span class="trailer-slide__scrim"></span>
+<img class="trailer-slide__image" src="https://img.youtube.com/vi/JRSAWgLSclE/hqdefault.jpg" placement="widget-trailer-swiper" alt loading="lazy" />
+</a>
+</div>
+<div class="swiper-slide trailer-slide">
+<a class="trailer-slide__link video-player__play-link" href="https://www.youtube.com/watch?v=D_9CeYX1YMM" data-video-id="D_9CeYX1YMM" data-video-name="Truth or Dairy">
+<svg class="trailer-slide__icon" width="40" height="40" fill="none">
+<use xlink:href="/images/icons-1.0.0.svg#icon-circular-play"></use>
+</svg>
+<span class="trailer-slide__heading">Truth or Dairy</span>
+<span class="trailer-slide__scrim"></span>
+<img class="trailer-slide__image" src="https://img.youtube.com/vi/D_9CeYX1YMM/hqdefault.jpg" placement="widget-trailer-swiper" alt loading="lazy" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="widget">
+<div class="widget__padding">
+<div class="container">
+<div class="tabs">
+<ul class="tabs-nav">
+<li class="tabs-nav__item">
+<button class="tabs-nav__button is-selected" type="button" data-content-id="synopsis">
+<span class="tabs-nav__text">Synopsis</span>
+</button>
+</li>
+<li class="tabs-nav__item">
+<button class="tabs-nav__button" type="button" data-content-id="details">
+<span class="tabs-nav__text">Details</span>
+</button>
+</li>
+</ul>
+<div class="tabs-content is-active" id="synopsis">
+<div class="wysiwyg">
+<p>Garfield (voiced by Chris Pratt), the world-famous, Monday-hating, lasagna-loving indoor cat, is about to have a wild outdoor adventure! After an unexpected reunion with his long-lost father – scruffy street cat Vic (voiced by Samuel L. Jackson) – Garfield and his canine friend Odie are forced from their perfectly pampered life into joining Vic in a hilarious, high-stakes heist.</p>
+</div>
+</div>
+<div class="tabs-content" id="details">
+<div class="wysiwyg">
+<dl>
+<dt>Director</dt>
+<dd>Mark Dindal</dd>
+<dt>Cast</dt>
+<dd>Nicholas Hoult, Chris Pratt, Ving Rhames, Cecily Strong, Samuel L. Jackson, Hannah Waddingham</dd>
+<dt>Genre</dt>
+<dd>Adventure, Animation, Comedy</dd>
+<dt>Rating</dt>
+<dd>G (Very mild themes, slapstick violence and infrequent coarse language)</dd>
+<dt>Release Date</dt>
+<dd>30 May 2024</dd>
+<dt>Runtime</dt>
+<dd>101 min</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Movie","name":"The Garfield Movie","description":"Garfield (voiced by Chris Pratt), the world-famous, Monday-hating, lasagna-loving indoor cat, is about to have a wild outdoor adventure! After an unexpected reunion with his long-lost father \u2013 scruffy street cat Vic (voiced by Samuel L. Jackson) \u2013 Garfield and his canine friend Odie are forced from their perfectly pampered life into joining Vic in a hilarious, high-stakes heist.","director":["Mark Dindal"],"actor":["Nicholas Hoult","Chris Pratt","Ving Rhames","Cecily Strong","Samuel L. Jackson","Hannah Waddingham"],"genre":["Adventure","Animation","Comedy"],"contentRating":"G","countryOfOrigin":["USA","UK"],"datePublished":"2024-05-30","image":"https://imgix.hoyts.com.au/mx/posters/au/the-garfield-movie-0d272068.jpg"}</script>
+</main>
+</div>
+</div>
+<div id="cinema-notification"></div>
+<footer class="footer">
+<div class="footer__flex">
+<div class="footer__follow">
+<h2 class="footer__follow-heading">Follow Us</h2>
+<ul class="footer__follow-list">
+<li class="footer__follow-list-item">
+<a class="footer__follow-link" aria-label="Facebook link" href="https://www.facebook.com/hoytsaustralia/" target="_blank">
+<svg width="20" height="20" fill="none" title="Facebook">
+<use xlink:href="/images/icons-1.0.0.svg#icon-facebook"></use>
+</svg>
+</a>
+</li>
+<li class="footer__follow-list-item">
+<a class="footer__follow-link" aria-label="X link" href="https://www.twitter.com/hoytsaustralia" target="_blank">
+<svg width="20" height="20" fill="none" title="X">
+<use xlink:href="/images/icons-1.0.0.svg#icon-x"></use>
+</svg>
+</a>
+</li>
+<li class="footer__follow-list-item">
+<a class="footer__follow-link" aria-label="Instagram link" href="https://www.instagram.com/hoytsaustralia" target="_blank">
+<svg width="20" height="20" fill="none" title="Instagram">
+<use xlink:href="/images/icons-1.0.0.svg#icon-instagram"></use>
+</svg>
+</a>
+</li>
+<li class="footer__follow-list-item">
+<a class="footer__follow-link" aria-label="Youtube link" href="https://www.youtube.com/hoytsanz" target="_blank">
+<svg width="20" height="20" fill="none" title="YouTube">
+<use xlink:href="/images/icons-1.0.0.svg#icon-youtube"></use>
+</svg>
+</a>
+</li>
+<li class="footer__follow-list-item">
+<a class="footer__follow-link" aria-label="Tiktok link" href="https://www.tiktok.com/@hoyts" target="_blank">
+<svg width="20" height="20" fill="none" title="TikTok">
+<use xlink:href="/images/icons-1.0.0.svg#icon-tiktok"></use>
+</svg>
+</a>
+</li>
+</ul>
+</div>
+<div class="footer__nav">
+<h2 class="footer__nav-heading">About Us</h2>
+<ul class="footer__nav-list">
+<li class="footer__nav-list-item">
+<a class="footer__nav-link" href="/about">About HOYTS</a>
+</li>
+<li class="footer__nav-list-item">
+<a class="footer__nav-link" href="/careers">Careers</a>
+</li>
+<li class="footer__nav-list-item">
+<a class="footer__nav-link" href="/media">Media Releases</a>
+</li>
+<li class="footer__nav-list-item">
+<a class="footer__nav-link" href="https://hoyts.zendesk.com/hc/en-us" target="_blank">FAQ</a>
+</li>
+<li class="footer__nav-list-item">
+<a class="footer__nav-link" href="/accessibility">Accessibility</a>
+</li>
+<li class="footer__nav-list-item">
+<a class="footer__nav-link" href="/gift-card">Gift Card Balance</a>
+</li>
+<li class="footer__nav-list-item">
+<a class="footer__nav-link" href="/contact-us">Contact Us</a>
+</li>
+</ul>
+</div>
+<div class="footer__app">
+<h2 class="footer__app-heading">HOYTS App</h2>
+<ul class="footer__app-list">
+<li class="footer__app-list-item">
+<a class="footer__app-link" href="https://apps.apple.com/au/app/hoyts-australia/id441151000" target="_blank">
+<img class="footer__app-image" src="/images/download-on-the-app-store.svg" width="120" height="40" alt="Download on the App Store" loading="lazy" />
+</a>
+</li>
+<li class="footer__app-list-item">
+<a class="footer__app-link" href="https://play.google.com/store/apps/details?id=nz.co.vista.android.movie&hl=en_AU" target="_blank">
+<img class="footer__app-image" src="/images/get-it-on-google-play.svg" width="135" height="40" alt="Get it on Google Play" loading="lazy" />
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer__sitemap">
+<p class="footer__sitemap-text">
+<span class="footer__sitemap-copyright">Copyright &copy; 2024 HOYTS. All Rights Reserved.</span>
+<span class="footer__sitemap-links">
+<a class="footer__sitemap-link" href="/terms-and-conditions">Terms & Conditions</a>
+<span class="footer__divider">|</span>
+<a class="footer__sitemap-link" href="/rewards/terms-and-conditions">Rewards Terms & Conditions</a>
+<span class="footer__divider">|</span>
+<a class="footer__sitemap-link" href="/privacy-policy">Privacy Policy</a>
+<span class="footer__divider">|</span>
+<a class="footer__sitemap-link" href="https://www.chook.com.au" target="_blank">Site by Chook</a>
+</span>
+<span class="footer__sitemap-grecaptcha">This site is protected by reCAPTCHA and the Google <a class="footer__sitemap-grecaptcha-link" href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and <a class="footer__sitemap-grecaptcha-link" href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.</span>
+</p>
+</div>
+</footer>
+</div>
+<script type="e923d03b63a48d0b1343e781-text/javascript">
+        window.config = {
+            algolia: {
+                indexName: 'preview_HOYTSAU',
+                applicationId: 'I7WSMSQJH0',
+                apiKey: '27b7d5d97f8e85346926200133234992'
+            },
+            urls: {
+                barcodeApi: 'https://apim.hoyts.com.au/barcode/',
+                cdn: 'https://static.hoyts.com.au/',
+                images: 'https://imgix.hoyts.com.au/',
+                loyaltyApi: 'https://apim.hoyts.com.au/au/loyalty/api/v1/',
+                orderingApi: 'https://apim.hoyts.com.au/au/ordering/api/v1/',
+                ticketingApi: 'https://apim.hoyts.com.au/au/ticketing/api/v1/',
+                validatorApi: 'https://validator.hoyts.com.au/api/',
+                walletApi: 'https://api.hoyts.com.au/wallet/',
+                webApi: 'https://apim.hoyts.com.au/au/cinemaapi/api/',
+                website: 'https://www.hoyts.com.au/'
+            },
+            recaptcha: {
+                siteKey: '6Ld43IElAAAAABrkki0FL7MD3jnH9fW-XGfakiH1'
+            },
+            country: 'au',
+            standardTickets: 'Z1,Z2,Z3,Z4,Z6'
+        };
+        window.placements = {"article-header":{"actuals":[[360,149],[848,350],[1240,512]],"sizes":"(max-width: 1240px) 100vw, (max-width: 1680px) 848px, 1240px","width":1240,"height":512,"loading":"lazy"},"article-list":{"actuals":[[272]],"sizes":"272px","width":272,"loading":"lazy"},"article-list-large":{"actuals":[[296],[600]],"sizes":"(max-width: 640px) calc(100vw - 64px), 600px","width":600,"loading":"lazy"},"booking-header":{"actuals":[[296,200],[416,216]],"sizes":"(max-width:640px) 296px, 416px","width":416,"height":216,"loading":"lazy"},"error":{"actuals":[[320],[640],[1024],[1680],[1920],[2560]],"sizes":"100vw","width":1920,"loading":"lazy"},"hero-swiper":{"actuals":[[360,264],[848,480],[1240,698]],"sizes":"(max-width: 1240px) 100vw, (max-width: 1680px) 848px, 1240px","width":1240,"height":698,"loading":"lazy"},"modal-header":{"actuals":[[488,200]],"sizes":"488px","width":488,"height":200,"loading":"lazy"},"poster":{"actuals":[[102,152],[160,240]],"sizes":"(max-width: 640px) 102px, 160px","width":160,"height":240,"loading":"lazy"},"poster-large":{"actuals":[[156,231]],"sizes":"156px","width":156,"height":231,"loading":"lazy"},"rewards-hero":{"actuals":[[900,600],[640,426],[360,240]],"sizes":"(max-width: 1024px) 100vw, 50vw","width":900,"height":600,"loading":"lazy"},"wallet":{"actuals":[[296,200],[368,207]],"sizes":"(max-width: 640px) calc(100vw - 64px), 368px","width":368,"height":207,"loading":"lazy"},"widget-card-grid":{"actuals":[[328,222],[438,296],[608,410]],"sizes":"(max-width: 640px) calc(100vw - 32px), (max-width: 1024px) calc((100vw - 48px) / 2), (max-width: 1240px) calc((100vw - 64px) / 3), (max-width: 1680px) calc((100vw - 352px) / 4), calc((100vw - 368px) / 5)","width":328,"height":222,"loading":"lazy"},"widget-card-swiper":{"actuals":[[296,200]],"sizes":"296px","width":296,"height":200,"loading":"lazy"},"widget-card-swiper-large":{"actuals":[[296,200],[464,312]],"sizes":"(max-width: 640px) calc(100vw - 64px), 464px","width":464,"height":312,"loading":"lazy"},"widget-feature-swiper":{"actuals":[[296,200],[368,249]],"sizes":"(max-width: 640px) calc(100vw - 64px), 368px","width":368,"height":249,"loading":"lazy"},"widget-feature-swiper-large":{"actuals":[[296,200],[464,312]],"sizes":"(max-width: 640px) calc(100vw - 64px), 464px","width":464,"height":312,"loading":"lazy"},"widget-gallery-swiper":{"actuals":[[216,144],[272,180]],"sizes":"(max-width: 640px) 216px, 272px","width":272,"height":180,"loading":"lazy"},"widget-generic-promotion":{"actuals":[[272,181],[576,383]],"sizes":"(max-width: 640px) calc(100vw - 64px), 272px","width":272,"height":181,"loading":"lazy"},"widget-jumbo":{"actuals":[[328,218],[560,373]],"sizes":"(max-width: 640px) calc(100vw - 32px), 560px","width":560,"height":315,"loading":"lazy"},"widget-promo":{"actuals":[[608,180],[1240,540]],"sizes":"(max-width: 640px) calc(100vw - 32px), 1240px","width":1240,"height":540,"loading":"lazy"},"widget-billboard-swiper":{"actuals":[[320,180],[336,189]],"sizes":"(max-width: 1024px) 320px, 336px","width":336,"height":189,"loading":"lazy"},"widget-trailer-swiper":{"actuals":[[296,200],[368,207]],"sizes":"(max-width: 640px) calc(100vw - 64px), 368px","width":368,"height":207,"loading":"lazy"},"wysiwyg-image":{"actuals":[[328],[848]],"sizes":"(max-width: 880px) calc(100vw - 32px), 848px","width":848,"loading":"lazy"},"wysiwyg-video":{"actuals":[[328,184],[848,488]],"sizes":"(max-width: 880px) calc(100vw - 32px), 848px","width":848,"height":488,"loading":"lazy"}};
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.17.0/dist/algoliasearch-lite.umd.js" integrity="sha256-Lf9DrpGmcRip6OQzbcL6lnvNmoZNSKpyQX5pMlwatWE=" crossorigin="anonymous" type="e923d03b63a48d0b1343e781-text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.55.0/dist/instantsearch.production.min.js" integrity="sha256-aRxUroY27yHj7g0t6OfxRaGP1NIgtuperOoNVzgUSys=" crossorigin="anonymous" type="e923d03b63a48d0b1343e781-text/javascript"></script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="e923d03b63a48d0b1343e781-|49" defer></script></body>
+</html>
